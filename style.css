@@ -34,15 +34,18 @@ button{cursor:pointer}
   margin-bottom:18px;
   box-shadow:0 16px 34px rgba(116,75,40,.18);
 }
-.hero:after{
-  content:"";
-  position:absolute;
-  width:220px;height:220px;
-  right:-90px;top:-100px;
-  border-radius:50%;
-  background:rgba(255,255,255,.10);
+
+.hero:after {
+  content: "";
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  right: -90px;
+  top: -100px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.18);
 }
-.hero-logo{width:200px;height:200px;object-fit:contain;margin:0 auto 8px;position:relative;z-index:1}
+.hero-logo{width:300px;height:300px;object-fit:contain;margin:0 auto 6px;position:relative;z-index:1}
 .eyebrow{font-size:12px;font-weight:800;letter-spacing:3px;opacity:.95;position:relative;z-index:1}
 .hero h1{margin:8px 0 8px;font-size:34px;line-height:1.1;position:relative;z-index:1}
 .hero p{margin:0;font-size:15px;line-height:1.5;position:relative;z-index:1}
