@@ -28,13 +28,12 @@ button{cursor:pointer}
   overflow:hidden;
   text-align:center;
   color:#fff;
-  background:linear-gradient(135deg,#C98A52,#E7B887);
+  background:linear-gradient(135deg,#000000,#4A4A4A);
   border-radius:30px;
   padding:28px 22px 30px;
   margin-bottom:18px;
-  box-shadow:0 16px 34px rgba(116,75,40,.18);
+  box-shadow:0 16px 34px rgba(0,0,0,.22);
 }
-
 .hero:after {
   content: "";
   position: absolute;
